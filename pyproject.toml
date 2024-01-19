@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "nlp-intro-report"
+version = "0.1.0"
+description = ""
+authors = ["grtw2116 <15563588+grtw2116@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.36.2"
+datasets = "^2.16.1"
+evaluate = "^0.4.1"
+pandas = "^2.1.4"
+torch = "^2.1.2"
+scikit-learn = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
