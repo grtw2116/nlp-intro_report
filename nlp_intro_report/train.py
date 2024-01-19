@@ -136,8 +136,6 @@ def __main__():
     print(f'Validation Loss: {val_loss}')
     print(f'Validation Accuracy: {val_accuracy}')
 
-    model.save_pretrained("ditilbert_finetuned.bin")
-
 
 if __name__ == "__main__":
     __main__()
